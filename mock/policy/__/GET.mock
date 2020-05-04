@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+	"broker": {
+		"name": "Name of the Broker",
+		"brokerId": "12345678"
+	},
+	"customer": {
+		"thirdPartyId": "1111",
+		"firstName": "Niels",
+		"lastName": "Ruiter",
+		"address": {
+			"id": "6a972665-ab57-430b-a9ba-27218b86a4d7",
+			"street": "Max plantsoen",
+			"number": "36",
+			"postalCode": "4363 JF",
+			"city": "Groeze Tomlaar"
+		},
+		"dateOfBirth": "13-06-1954",
+		"emailAddress": "Niels.Ruiter2@gmail.com",
+		"phoneNumber": "1414038478",
+		"policies": [{
+			"policyNumber": "P1111-1",
+			"productName": "Uitvaartverzekering",
+      "paymentArrears": false
+		}]
+	}
+}

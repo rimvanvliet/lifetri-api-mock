@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+	"broker": {
+		"name": "Name of the Broker",
+		"brokerId": "12345678"
+	},
+	"customer": {
+	"thirdPartyId": "1005",
+	"firstName": "Femke",
+	"lastName": "Bakker",
+	"address": {
+		"id": "5404c116-db9f-4f74-808b-acd4cdb6d305",
+		"street": "Brink plantsoen",
+		"number": "42",
+		"postalCode": "7263 SF",
+		"city": "Sannehorst"
+	},
+	"dateOfBirth": "14-12-1988",
+	"emailAddress": "Femke_Bakker37@yahoo.com",
+	"phoneNumber": "0626330269",
+	"policies": [{
+		"policyNumber": "P1005-1",
+		"productName": "Uitvaartverzekering",
+		"paymentArrears": false
+	}]
+}
+}

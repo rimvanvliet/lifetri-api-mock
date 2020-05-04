@@ -1,0 +1,18 @@
+
+<html>
+<body>
+<a href="policy">policy</a>
+<a href="policy/12345678911">policy/12345678911</a>
+<a href="policy/12345678911/GET.mock">policy/12345678911/GET.mock</a>
+<a href="policy/.DS_Store">policy/.DS_Store</a>
+<a href="customer">customer</a>
+<a href="customer/1001">customer/1001</a>
+<a href="customer/1001/GET.mock">customer/1001/GET.mock</a>
+<a href=""></a>
+</body>
+</html>
+
+
+^(.*)$
+
+<p><a href="$1">$1</a></p>

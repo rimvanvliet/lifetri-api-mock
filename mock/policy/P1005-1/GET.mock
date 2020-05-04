@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+	"broker": {
+		"name": "Name of the Broker",
+		"brokerId": "12345678"
+	},
+	"customer": {
+		"thirdPartyId": "1005"
+	},
+	"policy": {
+		"policyNumber": "P1005-1",
+		"productName": "Uitvaartverzekering",
+		"linkToPolicyDocument": "https://",
+		"linkToPolicyTerms": "https://",
+		"premiumAmount": 1400,
+		"insuredAmount": 110200,
+		"iban": "JO78WZPA9007000400676600879067",
+		"ibanName": "Sven Schouten",
+		"premiumPaymentFrequency": "maandelijks",
+		"invoices": [{
+			"invoiceDate": "1-5-2020",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": false
+		}, {
+			"invoiceDate": "1-4-2020",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-3-2020",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-2-2020",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-1-2020",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-12-2019",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-11-2019",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}, {
+			"invoiceDate": "1-10-2019",
+			"invoiceDescription": "Uitvaartverzekering 12345678911",
+			"invoiceAmount": 1400,
+			"invoicePaid": true
+		}]
+	}
+}

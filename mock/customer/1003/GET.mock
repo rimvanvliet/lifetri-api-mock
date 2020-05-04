@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+	"broker": {
+		"name": "Name of the Broker",
+		"brokerId": "12345678"
+	},
+	"customer": {
+	"thirdPartyId": "1003",
+	"firstName": "Jan",
+	"lastName": "Wit",
+	"address": {
+		"id": "ca656efd-b069-4ab3-ab4e-0aa1d6552765",
+		"street": "Beek straat",
+		"number": "22",
+		"postalCode": "0846 QS",
+		"city": "Vliet"
+	},
+	"dateOfBirth": "21-11-1961",
+	"emailAddress": "Jan_Wit@yahoo.com",
+	"phoneNumber": "0646186692",
+	"policies": [{
+		"policyNumber": "P1003-1",
+		"productName": "Uitvaartverzekering",
+		"paymentArrears": false
+	}]
+}
+}

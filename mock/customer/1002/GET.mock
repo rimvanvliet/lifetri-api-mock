@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+	"broker": {
+		"name": "Name of the Broker",
+		"brokerId": "12345678"
+	},
+	"customer": {
+	"thirdPartyId": "1002",
+	"firstName": "Niels",
+	"lastName": "Linden",
+	"address": {
+		"id": "46d0a9b6-2896-40f2-9e26-4b7e06fc6dde",
+		"street": "Maas laan",
+		"number": "25",
+		"postalCode": "7328 SS",
+		"city": "Teeffelen Sander"
+	},
+	"dateOfBirth": "12-09-1945",
+	"emailAddress": "Niels68@gmail.com",
+	"phoneNumber": "(0311) 207972",
+	"policies": [{
+		"policyNumber": "P1002-1",
+		"productName": "Uitvaartverzekering",
+		"paymentArrears": false
+	}]
+}
+}
